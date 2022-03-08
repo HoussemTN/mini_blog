@@ -31,6 +31,10 @@
                 <th>UpdatedAt</th>
                 <td>{{ article.updatedAt ? article.updatedAt|date('Y-m-d H:i:s') : '' }}</td>
             </tr>
+            <tr>
+                <th>Author</th>
+                <td>{{ article.author.email }}</td>
+            </tr>
         </tbody>
     </table>
 
